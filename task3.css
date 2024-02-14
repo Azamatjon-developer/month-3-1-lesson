@@ -1,65 +1,7 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-.container{
-    width: 100%;
-}
-
-
-.general-box{
-    width: 100%;
-    height: 100vh;
-
-}
-
-.left-box-items{
-    width: 415px;
-    height: 450px;
-    padding-top: 80px;
-    margin-left: 80px;
-    display: flex;
-    gap: 15px;
-    
-}
-
-.box-items-icon{
-    width: 50px;
-    height: 50px;
-    background-color: #fff;
-    color:#A78768;
-    padding: 15px 15px;
-    font-size: 20px;
-
-
-}
-.box-items-desc{
-    width: 200px;
-    height: 50px;
-
-}
-.left-box-items span{
-   border:1px solid #A78768;
-   padding: 10px;
-
-}
-.left-box-items{
-    font-size: 25px;
-    color:#A78768;
-
-
-}
-.number{
-    font-size: 18px;
-    color:#0A0A0A;
-    padding-top: 10px;
-
-} */
 .wrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     
 }.wrapper__left{
@@ -68,26 +10,94 @@
 }
 span{
    
-     border: 1px solid red;
-     padding: 20px;
+     padding: 10px;
      border-radius: 8px;
-     border: 1px  solid #B99674;
-     ;
+     border: 2px  solid #B99674;
+     
 }
-h5{
+.left-2 h5{
+    font-size: 25px;
     color:  #B99674;
-    font-family: sans-serif;
+
 }
-p{
-    
-    font-family: sans-serif;
-}
+
 .left-card{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
 }
 .left-icon{
     margin-top: 30px;
+}
+
+.wrapper__right{
+    width: 650px;
+    height: 550px;
+    margin-top: 30px;
+    background-color:#B99674;
+    padding:50px ;
+
+}
+
+.right-box{
+    width: 550px;
+    height: 450px;
+    background-color:#fff;
+  
+    
+}
+.right-card{
+    width: 650px;
+    height: 550px;
+    background-color:#fff;
+    
+}
+.title5{
+   text-align: center;
+  padding-top:  30px;
+}
+
+.form{
+    padding: 20px 0px 0px 60px;
+
+}
+
+.form input{
+    width: 540px;
+    height: 55px;
+    padding: 10px;
+    border:none;
+    outline: none;
+
+
+}
+
+.right-card textarea{
+    width: 540px;
+    height: 75px;
+
+
+}
+
+.title2{
+    text-align: center;
+    color: #413529;
+    padding-top:  5px;
+
+
+}
+.btn{
+    display: block;
+    width: 540px;
+    height: 50px;
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 15px;
+    font-size: 23px;
+    color:#fff;
+    background-color: #B99674;
+
 }

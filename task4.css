@@ -51,10 +51,22 @@
     height: 10%;
     border:3px solid blueviolet;
 }
+.all-div{
+    display: flex;
+}
+
+.aside-div{
+    border:2px solid blue
+}
 
 .footer-article{
     width: 70%;
     height: 10%;
     border:2px solid yellow;
 
+}
+
+.button-footer{
+    border:5px solid yellow;
+    font-size: 34px;
 }
