@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 100%;
+
+}
+
+.general-box{
+    width: 100%;
+    display: flex;
+ 
+    
+}
+.general-box-left{
+   width: 50%;
+   height: 100vh;
+   background-image: url(./img/bg\ img.png);
+    background-size:cover;
+    padding-top: 133px;    
+    padding-left: 197px;
+
+}
+
+
+.left-timing{
+    width: 20%;
+    background-color: #B99674F0;
+    color:#fff;
+    position: absolute;
+    padding: 15px;
+
+
+}
+
+.timing-top h1{
+    font-size: 42px;
+    padding-top: 28px;
+    text-align: center;
+
+}
+
+.timing-top h3{
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+
+}
+
+.timing-top p{
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.timing-bottom h2{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+}
+.timing-bottom p{
+    padding-top: 20px;
+    text-align: center;
+    line-height: 22px;
+
+}
+.timing-bottom h3{
+    padding-top: 35px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+/* general box right starts  */
+
+.general-box-right{
+        width: 50%;
+        height: 100vh;
+  
+     
+     
+}
+.right-box{
+    width: 50%;
+    margin-top: 120px;
+    margin-left: 140px;
+    padding: 10px;
+
+}
+
+.right-desc h2{
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    color:#0A0A0A;
+    text-align: center;
+}
+
+.right-desc h3{
+    font-size: 40px;
+    line-height: 66px;
+    color:#0A0A0A;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.right-forms input{
+    width: 100%;
+    height: 30px;
+    padding: 15px 20px ;
+    border:none;
+    margin-top: 10px;
+}
+
+.right-forms  textarea{
+    width: 100%;
+    height: 80px;
+    margin-top: 15px;
+    padding: 20px;
+    
+}
+.btn{
+    width: 100%;
+    height: 30px;
+    background-color:#0A0A0A;
+    color:#fff;
+    padding: 8px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    line-height: 19px;
+
+
+}
